@@ -52,7 +52,7 @@ data_frame = pd.DataFrame(table_data, columns=table_headers)
 
 # Manda essa tabela para um arquivo EXCEL
 
-data_frame.to_excel("arquivo.xlsx")
+data_frame.to("arquivo.xlsx")
 
 print("Tabela criada com sucesso!")
 
